@@ -4,7 +4,7 @@
 # arm64v8/openjdk
 
 ARG CI_FROM=null
-FROM arm64v8/openjdk
+FROM anapsix/alpine-java:8_jdk
 
 
 
