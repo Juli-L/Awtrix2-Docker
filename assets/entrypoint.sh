@@ -19,4 +19,5 @@ if [ "$AUTOUPDATE" = true ] ; then
 wget $AWTRIX_DL_URL -O /data/awtrix.jar
 fi
 
-java -jar /data/awtrix.jar
+java -jar /data/awtrix.jar --no-check-certificate
+
