@@ -4,12 +4,8 @@
 # arm64v8/openjdk
 
 ARG CI_FROM=null
-FROM ${CI_FROM}
-RUN echo "Set FROM to $CI_FROM"
+FROM arm64v8/openjdk
 
-# Output target platform
-ARG TARGETPLATFORM
-RUN echo "Building for ARCH $TARGETPLATFORM"
 
 
 WORKDIR /data
